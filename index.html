@@ -7,6 +7,11 @@
   .column {
     flex: 1;       /* Ensures both columns take up equal width */
   }
+  /* Makes the image fully responsive without stretching */
+  .responsive-img {
+     max-width: 40%;
+     height: auto;
+    }
 </style>
 
   <head>
@@ -68,7 +73,7 @@
     </div>
     <div class="column">
         <section class="left-image">
-          <img src="figs/stabler.jpg" alt="A picture of me, with gray hair, squinting in the sunshine.">
+          <img src="figs/stabler.jpg" alt="A picture of me, with gray hair, squinting in the sunshine." class="responsive-img">>
         </section>
     </div>
   </div>
@@ -91,6 +96,17 @@
         </div>
 
       </section>
+
+<div style="text-align: right;">
+
+	<a href="https://www.eff.org">
+          <img src="figs/eff_logo.png" alt="Logo for the Electronic Frontier Foundation" class="responsive-img">>
+        </a>
+
+	<a href="https://law.ucla.edu/academics/centers/promise-institute-human-rights">
+          <img src="figs/global-summit.jpg" alt="Poster for 2007 Global Human Rights Summit in  Los Angeles, with a dove over the earth" class="responsive-img">>
+        </a>
+</div>
 
       <section class="footer">
         Last updated: 24 Sep 2026
